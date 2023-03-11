@@ -8,7 +8,9 @@
     
     <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
 
+    <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsivo.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,9 +19,9 @@
 </head>
 
 <body>
-    <main>
+    <main class="principal">
         <div class="carrossel">
-            <img src="./assets/images/tlou-1.jpg" alt="Joel e Ellie abraçados." class="imagem">
+            <img src="./assets/images/tlou-1.jpg" alt="Joel e Ellie abraçados." class="imagem ativa">
             <img src="./assets/images/tlou-2.jpg" alt="Personagem de The Last of Us." class="imagem">
             <img src="./assets/images/tlou-3.jpg" alt="Joel Olhando pela janela." class="imagem">
             <img src="./assets/images/tlou-4.jpg" alt="Ellie e Tess se olhando." class="imagem">
@@ -28,15 +30,15 @@
         </div>
         <div class="conteudo">
             <div class="informacoes">
-                <img src="./assets/images/logo.png" alt="Logo the last of us">
-                <p>
+                <img src="./assets/images/logo.png" alt="Logo the last of us" class="logo">
+                <p class="descricao">
                     The Last of Us é uma série distópica da HBO baseada na franquia de jogos de videogame de mesmo nome
                     criada por Neil Druckmann. O drama narra um futuro pandêmico que foi devastador para humanidade,
                     deixando os seres humanos à beira da extinção.
                 </p>
             </div>
             <div class="botoes-carrossel">
-                <button class="botao"></button>
+                <button class="botao selecionado"></button>
                 <button class="botao"></button>
                 <button class="botao"></button>
                 <button class="botao"></button>
